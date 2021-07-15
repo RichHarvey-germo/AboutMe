@@ -9,28 +9,30 @@ alert('Thanks for coming, ${guestName}');
 
 // ask question
 //q 1
-let richFirstName = prompt('Yes/No: The page creators first name is Rich?');
-console.log(`Q 1 answer: ${richFirstName}`);
-switch (richFirstName.toLowerCase()) {
-  case 'y':
-  case 'yes':
-    var response = 'That is correct! Its Rich';
+function richFirstName() {
+  let richFirstName = prompt('Yes/No: The page creators first name is Rich?');
+  console.log(`Q 1 answer: ${richFirstName}`);
+  switch (richFirstName.toLowerCase()) {
+    case 'y':
+    case 'yes':
+      var response = 'That is correct! Its Rich';
+      alert(response);
+      console.log(response);
+    break;
+  case 'n':
+  case 'no':
+    var response = 'That ain\'t right yo! Its Rich!';
     alert(response);
     console.log(response);
-  break;
-case 'n':
-case 'no':
-  var response = 'That ain\'t right yo! Its Rich!';
-  alert(response);
-  console.log(response);
-  break;
-
-  default:
-    alert(defaultResponse);
-    console.log(defaultResponse);
     break;
-}
 
+    default:
+      alert(defaultResponse);
+      console.log(defaultResponse);
+      break;
+  }
+}
+richFirstName()
 //q 2
 let richMilService = prompt('Yes/No: Is/Was in the US Army?');
 console.log(`Q 2 answer: ${richMilService}`);
