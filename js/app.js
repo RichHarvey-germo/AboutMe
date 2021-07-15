@@ -79,22 +79,25 @@ function richStarWars() {
 richStarWars()
 
 //q 4
-let richJob = prompt('Yes/No: Is Rich employed currently?');
-console.log(`Q 4 answer: ${richJob}`);
-switch (richJob.toLowerCase()) {
-  case 'y':
-  case 'yes':
-    var response = 'This lazy bum agrees!';
-    alert(response);
-    console.log(response);
-    break;
-  case 'n':
-  case 'no':
-    var response = 'No no no '
-    alert(response);
-    console.log(response);
-    break;
+function richJob() {
+  let richJob = prompt('Yes/No: Is Rich employed currently?');
+  console.log(`Q 4 answer: ${richJob}`);
+  switch (richJob.toLowerCase()) {
+    case 'y':
+    case 'yes':
+      var response = 'This lazy bum agrees!';
+      alert(response);
+      console.log(response);
+      break;
+    case 'n':
+    case 'no':
+      var response = 'No no no '
+      alert(response);
+      console.log(response);
+      break;
+  }
 }
+richJob()
 
 //q 5
 let richTats = prompt('Yes/No: Do I have any tattoos?');
