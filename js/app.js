@@ -18,13 +18,13 @@ function richFirstName() {
       var response = 'That is correct! Its Rich';
       alert(response);
       console.log(response);
-    break;
-  case 'n':
-  case 'no':
-    var response = 'That ain\'t right yo! Its Rich!';
-    alert(response);
-    console.log(response);
-    break;
+      break;
+    case 'n':
+    case 'no':
+      var response = 'That ain\'t right yo! Its Rich!';
+      alert(response);
+      console.log(response);
+      break;
 
     default:
       alert(defaultResponse);
@@ -33,24 +33,28 @@ function richFirstName() {
   }
 }
 richFirstName()
-//q 2
-let richMilService = prompt('Yes/No: Is/Was in the US Army?');
-console.log(`Q 2 answer: ${richMilService}`);
-switch (richMilService.toLowerCase()) {
-  case 'y':
-  case 'yes':
-    var response = 'Thats right! Rich was a soldier in the army! Its Rich!';
-    alert(response);
-    console.log(response);
-    break;
 
-  case 'n':
-  case 'no':
-    var response = 'Nah fam! Try again!';
-    alert(response);
-    console.log(response);
-    break;
+//q 2
+function richMilService() {
+  let richMilService = prompt('Yes/No: Is/Was in the US Army?');
+  console.log(`Q 2 answer: ${richMilService}`);
+  switch (richMilService.toLowerCase()) {
+    case 'y':
+    case 'yes':
+      var response = 'Thats right! Rich was a soldier in the army! Its Rich!';
+      alert(response);
+      console.log(response);
+      break;
+
+    case 'n':
+    case 'no':
+      var response = 'Nah fam! Try again!';
+      alert(response);
+      console.log(response);
+      break;
+  }
 }
+richMilService()
 
 //q 3
 let richStarWars = prompt('Yes/No: Does Rich like/love Star Wars???');
