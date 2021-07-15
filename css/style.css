@@ -1,0 +1,45 @@
+body {
+  box-sizing: border;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+header {
+  border: 4px dotted blue;
+  margin: 5px;
+  padding: 9px;
+}
+
+section {
+  border: 4px dotted blue;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+img {
+  width: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+footer {
+  margin-top: 20px;
+  margin-left: 5px;
+}
