@@ -57,24 +57,26 @@ function richMilService() {
 richMilService()
 
 //q 3
-let richStarWars = prompt('Yes/No: Does Rich like/love Star Wars???');
-console.log(`Q 3 answer: ${richStarWars}`);
-switch (richStarWars.toLocaleLowerCase()) {
-  case 'y':
-  case 'yes':
-    var response = 'The force is stong with you';
-    alert(response);
-    console.log(response);
-    break;
+function richStarWars() {
+  let richStarWars = prompt('Yes/No: Does Rich like/love Star Wars???');
+  console.log(`Q 3 answer: ${richStarWars}`);
+  switch (richStarWars.toLocaleLowerCase()) {
+    case 'y':
+    case 'yes':
+      var response = 'The force is stong with you';
+      alert(response);
+      console.log(response);
+      break;
 
-  case 'n':
-  case 'no':
-    var response = 'These aren\'t the droids you\'re looking for!';
-    alert(response);
-    console.log(response);
-    break;
+    case 'n':
+    case 'no':
+      var response = 'These aren\'t the droids you\'re looking for!';
+      alert(response);
+      console.log(response);
+      break;
+  }
 }
-
+richStarWars()
 
 //q 4
 let richJob = prompt('Yes/No: Is Rich employed currently?');
