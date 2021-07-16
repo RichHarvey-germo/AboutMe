@@ -13,7 +13,43 @@ h2 {
 h3 {
   font-size: 1.75em;
 }
+.intro {
+  text-align: left;  
+  text-shadow: -1px -1px #000000;
+  color: black;
+  border-style: solid;
+  border-color: rgb(175, 34, 34);
+  border-block-start-color: blue;
+  padding: 10px;
+}
 
+.edu {
+  text-align: left;  
+  text-shadow: -1px -1px #000000;
+  color: black;
+  border-style: solid;
+  border-color: rgb(175, 34, 34);
+  border-block-start-color: blue;
+  padding: 10px;
+}
+.goals {
+  text-align: left;  
+  text-shadow: -1px -1px #000000;
+  color: black;
+  border-style: solid;
+  border-color: rgb(175, 34, 34);
+  border-block-start-color: blue;
+  padding: 10px;
+}
+.pro {
+  text-align: left;  
+  text-shadow: -1px -1px #000000;
+  color: black;
+  border-style: solid;
+  border-color: rgb(175, 34, 34);
+  border-block-start-color: blue;
+  padding: 10px;
+}
 header {
   border: 4px dotted blue;
   margin: 5px;
