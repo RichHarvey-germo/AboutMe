@@ -1,26 +1,29 @@
-"use strict";
+'use strict';
 
-alert("Come join us!!"); //alert for greeting
+alert('Come join us!!'); //alert for greeting
+// eslint-disable-next-line no-var
 var score = 0; //var for scoring
-let userName = prompt("What is your name?");
+let userName = prompt('What is your name?');
 console.log(userName);
 
-alert("Welcome " + userName + "! Have fun with this site!");
+alert('Welcome ' + userName + '! Have fun with this site!');
 
 //q 1
 function richFirstName() {
-  let firstName = prompt("Is my first name Rich?");
+  let firstName = prompt('Is my first name Rich?');
   let name = firstName.toLowerCase();
-  if (name == "y" || name == "yes") {
-    alert("That's correct");
+  // eslint-disable-next-line eqeqeq
+  if (name == 'y' || name == 'yes') {
+    alert('That\'s correct');
     score++;
     return;
   }
-  if (name == "n" || name == "no") {
-    alert("That is wrong");
+  // eslint-disable-next-line eqeqeq
+  if (name == 'n' || name == 'no') {
+    alert('That is wrong');
     return;
   } else {
-    alert("Nope. Try again!");
+    alert('Nope. Try again!');
     return;
   }
 }
@@ -28,18 +31,20 @@ richFirstName();
 
 //q 2
 function richMilService() {
-  let milSerivce = prompt("Yes/No: Is/Was in the US Army?");
+  let milSerivce = prompt('Yes/No: Is/Was in the US Army?');
   let mil = milSerivce.toLowerCase();
-  if (mil == "y" || mil == "yes") {
-    alert("That is correct!");
+  // eslint-disable-next-line eqeqeq
+  if (mil == 'y' || mil == 'yes') {
+    alert('That is correct!');
     return;
   }
-  if (mil == "n" || mil == "no") {
-    alert("That is incorrect");
+  // eslint-disable-next-line eqeqeq
+  if (mil == 'n' || mil == 'no') {
+    alert('That is incorrect');
     score++;
     return;
   } else {
-    alert("Nah fam. Try again");
+    alert('Nah fam. Try again');
     return;
   }
 }
@@ -47,18 +52,20 @@ richMilService();
 
 //q 3
 function richStarWars() {
-  let starWars = prompt("Do I like Star Wars?");
+  let starWars = prompt('Do I like Star Wars?');
   let wars = starWars.toLowerCase();
-  if (wars == "y" || wars == "yes") {
-    alert("That is correct!");
+  // eslint-disable-next-line eqeqeq
+  if (wars == 'y' || wars == 'yes') {
+    alert('That is correct!');
     score++;
     return;
   }
-  if (wars == "n" || wars == "no") {
-    alert("That is incorrect");
+  // eslint-disable-next-line eqeqeq
+  if (wars == 'n' || wars == 'no') {
+    alert('That is incorrect');
     return;
   } else {
-    alert("That wont work!");
+    alert('That wont work!');
     return;
   }
 }
@@ -66,18 +73,20 @@ richStarWars();
 
 //q 4
 function richJob() {
-  let jobs = prompt("Am I currently employed?");
+  let jobs = prompt('Am I currently employed?');
   let joby = jobs.toLowerCase();
-  if (joby == "y" || joby == "yes") {
-    alert("That is correct!");
+  // eslint-disable-next-line eqeqeq
+  if (joby == 'y' || joby == 'yes') {
+    alert('That is correct!');
     score++;
     return;
   }
-  if (joby == "n" || joby == "no") {
-    alert("That is incorrect");
+  // eslint-disable-next-line eqeqeq
+  if (joby == 'n' || joby == 'no') {
+    alert('That is incorrect');
     return;
   } else {
-    alert("Not an acceptable answer!");
+    alert('Not an acceptable answer!');
     return;
   }
 }
@@ -85,18 +94,20 @@ richJob();
 
 //q 5
 function richTats() {
-  let richTats = prompt("Do I have tattoos?");
+  let richTats = prompt('Do I have tattoos?');
   let tats = richTats.toLowerCase();
-  if (tats == "y" || tats == "yes") {
-    alert("Seems to be the correct answer, " + userName + "!");
+  // eslint-disable-next-line eqeqeq
+  if (tats == 'y' || tats == 'yes') {
+    alert('Seems to be the correct answer, ' + userName + '!');
     score++;
     return;
   }
-  if (tats == "n" || tats == "no") {
-    alert("naahhhh");
+  // eslint-disable-next-line eqeqeq
+  if (tats == 'n' || tats == 'no') {
+    alert('naahhhh');
     return;
   } else {
-    alert("Try that answer again");
+    alert('Try that answer again');
     return;
   }
 }
@@ -107,67 +118,69 @@ function multiGuess() {
   for (let i = 0; i < 4; i++) {
     let numb = 16;
     let guessNumber = prompt(
-      "What's my favorite number? Its between 1 and 100."
+      'What\'s my favorite number? Its between 1 and 100.'
     );
     if (guessNumber < numb) {
-      alert("Wrongo. Too Low!");
+      alert('Wrongo. Too Low!');
       console.log(guessNumber);
     }
     if (guessNumber > numb) {
-      alert("Uh uh! Too High!");
+      alert('Uh uh! Too High!');
       console.log(guessNumber);
     }
+    // eslint-disable-next-line eqeqeq
     if (guessNumber == numb) {
-      alert("Wow! We have a smart person here!!");
+      alert('Wow! We have a smart person here!!');
       score++;
       console.log(guessNumber);
       return;
     }
   }
-  alert("You didn't say the magic word " + userName + "!");
+  alert('You didn\'t say the magic word ' + userName + '!');
 }
 multiGuess();
 
 //q 7
 function multiChoice() {
   const multArray = [
-    "Games",
-    "FFXIV",
-    "Tinder",
-    "Star Wars books",
-    "Board Games",
-    "Trolling",
+    'Games',
+    'FFXIV',
+    'Tinder',
+    'Star Wars books',
+    'Board Games',
+    'Trolling',
   ];
   for (let i = 0; i < 6; i++) {
-    var multArrayQuest = prompt(
-      "Welcome to the B-B-B-Bounus Round!! Guess a honny of mine!"
+    let multArrayQuest = prompt(
+      'Welcome to the B-B-B-Bounus Round!! Guess a honny of mine!'
     );
-    var correctQuest = multArrayQuest.toLowerCase();
+    let correctQuest = multArrayQuest.toLowerCase();
 
     for (let i = 0; i < multArray.length; i++) {
       if (correctQuest == multArray[i].toLowerCase()) {
         score++;
         alert(
-          "You got it " +
+          'You got it ' +
             userName +
-            "! You've completed the Guessing Game! Good Job"
+            '! You\'ve completed the Guessing Game! Good Job'
         );
         return;
       }
     }
-    alert("Nope, nope, nope. Try again");
+    alert('Nope, nope, nope. Try again');
   }
 
-  alert("Almost there. Try it out " + userName + "!" + multArray);
+  alert('Almost there. Try it out ' + userName + '!' + multArray);
 }
 multiChoice();
 
 alert(
-  "Thanks for playing " +
+  'Thanks for playing ' +
     userName +
-    "! Your final score is  " +
+    '! Your final score is  ' +
     score +
-    " out of 7"
+    ' out of 7'
 );
 
+// eslint-disable-next-line no-debugger
 debugger;
