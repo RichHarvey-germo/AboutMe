@@ -1,81 +1,81 @@
 body {
-  box-sizing: border;
+  background-color: rgba(241, 83, 176, 0.795);
+  
 }
+.h2, .h2 {
+  color:rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 30px;
+  border: rgb(45, 247, 79);
+  text-decoration-line: underline;
 
-h1 {
-  font-size: 3em;
 }
+.gamTitl {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 750;
+  color: rgb(255, 251, 1);
+  margin: 50px;
+  border: 2px;
+  padding: 20px;
+  border-radius: 80px 50px 80px 50px;
+  border-width: 20px;
+  border-color: rgb(16, 24, 138);
+  border-style: double;
+  box-shadow: -5px -5px #000000;
 
-h2 {
-  font-size: 2em;
-}
-
-h3 {
-  font-size: 1.75em;
 }
 .intro {
   text-align: left;  
   text-shadow: -1px -1px #000000;
   color: black;
   border-style: solid;
-  border-color: rgb(175, 34, 34);
-  border-block-start-color: blue;
+  border-color: rgb(76, 233, 37);
+  border-block-start-color: rgb(58, 32, 204);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
   padding: 10px;
-}
 
+}
 .edu {
-  text-align: left;  
+  text-align: left;
   text-shadow: -1px -1px #000000;
   color: black;
   border-style: solid;
-  border-color: rgb(175, 34, 34);
-  border-block-start-color: blue;
+  border-color: rgb(76, 233, 37);
+  border-block-start-color: rgb(58, 32, 204);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
   padding: 10px;
+
 }
 .goals {
-  text-align: left;  
+  text-align: left;
   text-shadow: -1px -1px #000000;
   color: black;
   border-style: solid;
-  border-color: rgb(175, 34, 34);
-  border-block-start-color: blue;
+  border-color: rgb(76, 233, 37);
+  border-block-start-color: rgb(58, 32, 204);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
   padding: 10px;
+
 }
-.pro {
-  text-align: left;  
+.exp {
+  text-align: left;
   text-shadow: -1px -1px #000000;
   color: black;
   border-style: solid;
-  border-color: rgb(175, 34, 34);
-  border-block-start-color: blue;
+  border-color: rgb(76, 233, 37);
+  border-block-start-color: rgb(58, 32, 204);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
   padding: 10px;
-}
-header {
-  border: 4px dotted blue;
-  margin: 5px;
-  padding: 9px;
+
 }
 
-section {
-  border: 4px dotted blue;
-  margin-top: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 10px;
-}
+* li {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
 
-img {
-  width: 50%;
-  display: block;
-  margin: 10px auto;
-}
-
-ol {
-  list-style: decimal;
-  list-style-position: inside;
-}
-
-footer {
-  margin-top: 20px;
-  margin-left: 5px;
 }
