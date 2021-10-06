@@ -137,11 +137,11 @@ let multiGuess = function() {
     }
   }
   alert('You didn\'t say the magic word ' + userName + '!');
-}
+};
 multiGuess();
 
 //q 7
-function multiChoice() {
+let multiChoice = function() {
   const multArray = [
     'Games',
     'FFXIV',
@@ -171,7 +171,7 @@ function multiChoice() {
   }
 
   alert('Almost there. Try it out ' + userName + '!' + multArray);
-}
+};
 multiChoice();
 
 alert(
