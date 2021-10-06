@@ -114,7 +114,7 @@ let richTats = function() {
 richTats();
 
 // q 6
-function multiGuess() {
+let multiGuess = function() {
   for (let i = 0; i < 4; i++) {
     let numb = 16;
     let guessNumber = prompt(
