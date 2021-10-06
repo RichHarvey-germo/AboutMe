@@ -26,7 +26,7 @@ let richFirstName = function() {
     alert('Nope. Try again!');
     return;
   }
-}
+};
 richFirstName();
 
 //q 2
@@ -47,7 +47,7 @@ let richMilService = function() {
     alert('Nah fam. Try again');
     return;
   }
-}
+};
 richMilService();
 
 //q 3
@@ -68,7 +68,7 @@ let richStarWars = function() {
     alert('That wont work!');
     return;
   }
-}
+};
 richStarWars();
 
 //q 4
@@ -89,11 +89,11 @@ let richJob = function() {
     alert('Not an acceptable answer!');
     return;
   }
-}
+};
 richJob();
 
 //q 5
-function richTats() {
+let richTats = function() {
   let richTats = prompt('Do I have tattoos?');
   let tats = richTats.toLowerCase();
   // eslint-disable-next-line eqeqeq
@@ -110,7 +110,7 @@ function richTats() {
     alert('Try that answer again');
     return;
   }
-}
+};
 richTats();
 
 // q 6
