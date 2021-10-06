@@ -9,7 +9,7 @@ console.log(userName);
 alert('Welcome ' + userName + '! Have fun with this site!');
 
 //q 1
-function richFirstName() {
+let richFirstName = function() {
   let firstName = prompt('Is my first name Rich?');
   let name = firstName.toLowerCase();
   // eslint-disable-next-line eqeqeq
