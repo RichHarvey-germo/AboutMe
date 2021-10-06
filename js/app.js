@@ -51,7 +51,7 @@ let richMilService = function() {
 richMilService();
 
 //q 3
-function richStarWars() {
+let richStarWars = function() {
   let starWars = prompt('Do I like Star Wars?');
   let wars = starWars.toLowerCase();
   // eslint-disable-next-line eqeqeq
