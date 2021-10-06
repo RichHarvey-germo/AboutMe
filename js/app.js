@@ -30,7 +30,7 @@ let richFirstName = function() {
 richFirstName();
 
 //q 2
-function richMilService() {
+let richMilService = function() {
   let milSerivce = prompt('Yes/No: Is/Was in the US Army?');
   let mil = milSerivce.toLowerCase();
   // eslint-disable-next-line eqeqeq
