@@ -9,7 +9,7 @@ console.log(userName);
 alert('Welcome ' + userName + '! Have fun with this site!');
 
 //q 1
-function richFirstName() {
+let richFirstName = function() {
   let firstName = prompt('Is my first name Rich?');
   let name = firstName.toLowerCase();
   // eslint-disable-next-line eqeqeq
@@ -26,11 +26,11 @@ function richFirstName() {
     alert('Nope. Try again!');
     return;
   }
-}
+};
 richFirstName();
 
 //q 2
-function richMilService() {
+let richMilService = function() {
   let milSerivce = prompt('Yes/No: Is/Was in the US Army?');
   let mil = milSerivce.toLowerCase();
   // eslint-disable-next-line eqeqeq
@@ -47,11 +47,11 @@ function richMilService() {
     alert('Nah fam. Try again');
     return;
   }
-}
+};
 richMilService();
 
 //q 3
-function richStarWars() {
+let richStarWars = function() {
   let starWars = prompt('Do I like Star Wars?');
   let wars = starWars.toLowerCase();
   // eslint-disable-next-line eqeqeq
@@ -68,11 +68,11 @@ function richStarWars() {
     alert('That wont work!');
     return;
   }
-}
+};
 richStarWars();
 
 //q 4
-function richJob() {
+let richJob = function() {
   let jobs = prompt('Am I currently employed?');
   let joby = jobs.toLowerCase();
   // eslint-disable-next-line eqeqeq
@@ -89,11 +89,11 @@ function richJob() {
     alert('Not an acceptable answer!');
     return;
   }
-}
+};
 richJob();
 
 //q 5
-function richTats() {
+let richTats = function() {
   let richTats = prompt('Do I have tattoos?');
   let tats = richTats.toLowerCase();
   // eslint-disable-next-line eqeqeq
@@ -110,11 +110,11 @@ function richTats() {
     alert('Try that answer again');
     return;
   }
-}
+};
 richTats();
 
 // q 6
-function multiGuess() {
+let multiGuess = function() {
   for (let i = 0; i < 4; i++) {
     let numb = 16;
     let guessNumber = prompt(
@@ -137,11 +137,11 @@ function multiGuess() {
     }
   }
   alert('You didn\'t say the magic word ' + userName + '!');
-}
+};
 multiGuess();
 
 //q 7
-function multiChoice() {
+let multiChoice = function() {
   const multArray = [
     'Games',
     'FFXIV',
@@ -171,7 +171,7 @@ function multiChoice() {
   }
 
   alert('Almost there. Try it out ' + userName + '!' + multArray);
-}
+};
 multiChoice();
 
 alert(
