@@ -72,7 +72,7 @@ let richStarWars = function() {
 richStarWars();
 
 //q 4
-function richJob() {
+let richJob = function() {
   let jobs = prompt('Am I currently employed?');
   let joby = jobs.toLowerCase();
   // eslint-disable-next-line eqeqeq
